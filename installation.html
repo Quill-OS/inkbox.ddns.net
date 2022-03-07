@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>InkBox Project - Installation</title>
+	</head>
+	<body>
+		<script id="navbar" src="navbar.js"></script>
+		<center>
+			<h2>InkBox OS installation</h2>
+			<p>You can download precompiled OS/binaries <a href="http://23.163.0.39/bundles/inkbox/native">here</a>. Huge thanks to <a href="https://github.com/fermino">@fermino</a> for providing free hosting.<br>On Windows, use <a href="https://balena.io/etcher">balenaEtcher</a> to flash the InkBox image file to the Kobo's SD card.<br>On Linux and MacOS, balenaEtcher is the easiest option for command-line-reluctant users. Alternatively, you can also open a terminal and check the device node of the Kobo's SD card with <code>fdisk -l</code>. Then, write the image to the SD card, like this: <pre>xzcat inkbox.xz | dd of=/dev/mmcblk0</pre></p>
+		</center>
+		<script id="bottompage" src="bottompage.js"></script>
+	</body>
+</html>
