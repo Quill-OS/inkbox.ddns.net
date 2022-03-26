@@ -29,7 +29,7 @@ li {
 }
 
 a {
-	font-family: "Bitter", monospace;
+	font-family: "Bitter", sans-serif;
 	font-weight: bold;
 }
 
@@ -42,4 +42,9 @@ pre {
 	font-weight: bold;
 	font-size: 14pt;
 	padding: 0px 15px
+}
+
+.small {
+	font-family: "Bitter", sans-serif;
+	font-size: 10pt;
 }
